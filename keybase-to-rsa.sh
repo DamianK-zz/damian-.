@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# you need to install gnupg and monkeysphere
+# brew install gnupg@2.0
+# brew install monkeysphere
+
 echo "Start Export Process"
 
 echo "Log into Keybase..."
