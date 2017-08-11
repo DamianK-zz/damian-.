@@ -1,8 +1,13 @@
 #!/bin/bash
 
-# you need to install gnupg and monkeysphere
-# brew install gnupg@2.0
-# brew install monkeysphere
+for pkg in gnupg@2.0 monkeysphere; do
+    if brew list -1 | grep -q "^${pkg}\$"; then
+        echo "Package '$pkg' is installed"
+    else
+        echo "Package '$pkg' is not installed, installing..."
+        brew install $pkg
+    fi
+done
 
 echo "Start Export Process"
 
