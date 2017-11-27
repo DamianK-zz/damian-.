@@ -1,7 +1,6 @@
-damian-.
-========
+Damian's own repo
+=================
 
-Damian's github test repo
 This repo is my own test repository, used for testing programs and scripts
 
 This repo is for my own use, so no much explanations needed :) 
@@ -12,3 +11,4 @@ Please do not use the scripts found here without asking first. I'm not responsib
 
 # Scripts
 keybase-to-rsa: converts keybase.io keys to rsa keys for ssh use
+test.sh: and empty file to test something
